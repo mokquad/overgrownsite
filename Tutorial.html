@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overgrown</title>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" href="apple_white.ico" type="image/x-icon">
+
+    <style>
+body {
+    font-family: 'Permanent Marker', sans-serif;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    background-color: #181918;
+    color : #e4e4e4;
+}
+
+.skankphone-body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+.skankphone-content {
+    text-align: left;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+    backdrop-filter: blur(10px);
+    width: 60%;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1.5s ease forwards;
+}
+
+.skankphone-back-arrow {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    background-color: ssrgba(199, 199, 199, 0.8);
+    padding: 10px 15px;
+    border-radius: 50px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.skankphone-back-arrow:hover {
+    background-color: #dadada;
+    color: rgb(27, 27, 27);
+}
+
+.warning {
+    color: #d9534f;
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.skankphone-content h1 {
+    color: #8b5bb7;
+    text-align: center;
+    font-weight: 600;
+}
+
+.guide-list {
+    margin: 20px 0;
+    color: #e4e4e4;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.guide-list li {
+    margin-bottom: 10px;
+}
+
+.guide-list strong {
+    font-weight: 600;
+    color: #8b5bb7;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        width: 100vw;
+        overflow-x: hidden;
+    }
+
+    .skankphone-body {
+        padding: 10px;
+    }
+
+    .skankphone-content {
+        width: 90%;
+        padding: 15px;
+        margin-top: 10px;
+    }
+
+    .guide-list {
+        font-size: 0.95rem;
+    }
+
+    .skankphone-back-arrow {
+        font-size: 18px;
+        padding: 6px 10px;
+        top: unset;
+        left: unset;
+        position: relative;
+        margin-bottom: 10px;
+    }
+
+    .warning {
+        margin-top: 0;
+    }
+
+    h1 {
+        font-size: 1.3rem;
+    }
+
+    .download-link {
+        color: white;
+        text-decoration: none;
+    }
+
+    .dark-cli {
+        background: rgba(0, 0, 0, 1);
+    }
+}
+    </style>
+</head>
+<body class="skankphone-body">
+
+    <a href="index.html" class="skankphone-back-arrow">Back</a>
+    
+
+    <div class="skankphone-content">
+        <h1>Tutorial how to install Overgrown</h1>
+
+        <ol class="guide-list">
+            <li><strong>Step 1:</strong> Install <strong>3uTools</strong> on your computer</li>
+            <li><strong>Step 2:</strong> Jailbreak your iDevice with Phoenix or other jailbreak tool</li>
+            <li><strong>Step 3:</strong> Download Overgrown dump on your computer</li>
+            <li><strong>Step 4:</strong> Install <strong>Apple File Conduit 2</strong> from Cydia</li>
+            <li><strong>Step 5:</strong> Copy every folder from  Overgrown dump</li>
+            <li><strong>Step 6:</strong> Go to <strong>3uTools</strong>, go to <strong>File system (Jailbreak)</strong> and copy every folder you copied. Click <strong>Replace for every folder</strong> </li>
+            <li><strong>Step 7:</strong> Wait <strong>20-40 minutes</strong> </li>
+        </ol>
+
+        <p>After completing these steps, your iDevice with Overgrown should be ready to use!</p>
+    </div>
+
+</body>
+</html>

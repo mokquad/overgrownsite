@@ -3,23 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
     <title>Overgrown</title>
+	<link rel="apple-touch-icon" href="/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+	<link rel="apple-touch-icon" sizes="57x57" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container fade-in">
-        <h1>Overgrown</h1>
-        
-        <div class="hstack">
-            <a href="InternalFirmwares.html" class="button">
+<div class="container">
+    <h1 class="fade-in">Overgrown</h1>
+    <div class="hstack fade-in">
+        <div class="vstack">
+            <a href="Dumps.html" class="button">
                 <div>
                     <div class="vstack">
                         Dumps
-                        <span>NonUI, InternalUI and Horizon firmwares.</span>
+                        <span></span>
+                    </div>
                 </div>
-</div>
-        </div
+            </a>
+            <a href="Tutorial.html" class="button">
+                <div>
+                    <div class="vstack">
+                        Tutorial
+                        <span></span>
+                    </div>
+                </div>
+            </a>
+            <a href="Developers.html" class="button">
+                <div>
+                    <div class="vstack">
+                        Developers
+                        <span></span>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+                    </div>
+                </div>
+            </a>
         </div>
     </div>
+</div>
+
+
+<div id="firmwareModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Soon</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
